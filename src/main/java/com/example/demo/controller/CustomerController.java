@@ -20,7 +20,6 @@ import com.example.demo.service.CustomerService;
 
 @RestController
 @RequestMapping("/customer")
-@CrossOrigin("https://webapp-order-frontend.azurewebsites.net")
 public class CustomerController {
 
 	@Autowired
