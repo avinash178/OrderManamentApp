@@ -17,8 +17,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.entity.Customers;
 import com.example.demo.service.CustomerService;
 
+
 @RestController
 @RequestMapping("/customer")
+@CrossOrigin("https://webapp-order-frontend.azurewebsites.net")
 public class CustomerController {
 
 	@Autowired
